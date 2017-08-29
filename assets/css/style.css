@@ -1,15 +1,21 @@
-.container {
+.olympic-container {
+  padding: 5px;
   text-align: center;
+  border: 1px solid black;
 }
 
 img {
-  height: 400px;
-  width: auto;
+ width: 360px;
+ height: auto;
 }
 
 .ring-container {
+  margin: auto;
+  padding: 5px;
   position: relative;
-  height: 185px;
+  height: 190px;
+  width: 360px;
+  border: 1px solid black;
 }
 
 .ring {
@@ -25,7 +31,7 @@ img {
 .ring:nth-child(1) {
   border-color: #0081C8;
   left: calc(50% - 120px);
-  top: 0;
+  top: 5px;
 }
 .ring:nth-child(1)::after {
   content: "";
@@ -46,7 +52,7 @@ img {
 .ring:nth-child(2) {
   border-color: #FBB131;
   left: calc(50% - 60px);
-  top: 70px;
+  top: 75px;
 }
 .ring:nth-child(2)::after {
   content: "";
@@ -66,7 +72,7 @@ img {
 .ring:nth-child(3) {
   border-color: black;
   left: 50%;
-  top: 0;
+  top: 5px;
 }
 .ring:nth-child(3)::after {
   content: "";
@@ -86,7 +92,7 @@ img {
 .ring:nth-child(4) {
   border-color: #00A54F;
   left: calc(50% + 60px);
-  top: 70px;
+  top: 75px;
 }
 .ring:nth-child(4)::after {
   content: "";
@@ -106,7 +112,7 @@ img {
 .ring:nth-child(5) {
   border-color: #EE2E4E;
   left: calc(50% + 120px);
-  top: 0;
+  top: 5px;
 }
 .ring:nth-child(5)::after {
   content: "";
