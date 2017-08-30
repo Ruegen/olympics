@@ -1,7 +1,7 @@
 .olympic-container {
   padding: 5px;
   text-align: center;
-  border: 1px solid black;
+
 }
 
 .easel_top {
@@ -51,7 +51,7 @@ img {
   height: 400px;
   width: auto;
   position: relative;
-  top: -1275px;
+
 
 }
 
@@ -60,7 +60,7 @@ img {
   padding: 5px;
   position: relative;
   height: 185px;
-  top: -1275px;
+
 }
 
 .ring {
